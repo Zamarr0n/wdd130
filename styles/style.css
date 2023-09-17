@@ -1,0 +1,35 @@
+
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-color:#6B9AC4;
+    padding: 2.5rem;
+}
+main{
+    max-width: 840px;
+}
+main h1{
+    color: #4059AD;
+}
+aside{
+    margin: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    background-color: #6B9AC4;
+    color: black;
+    text-align: center;
+}
+aside img{
+    width: 500px;
+    height: auto;
+}
+p{
+    padding: 0;
+}
+footer{
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+}
