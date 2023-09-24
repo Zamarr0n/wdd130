@@ -14,6 +14,7 @@ main h1{
     color: #4059AD;
 }
 aside{
+    width: 20rem;
     margin: 1em;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1em;
@@ -22,7 +23,11 @@ aside{
     text-align: center;
 }
 aside img{
-    width: 500px;
+    width: 200px;
+    height: auto;
+}
+main img{
+    width: 150px;
     height: auto;
 }
 p{
