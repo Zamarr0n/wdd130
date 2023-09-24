@@ -1,7 +1,22 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav a{
+    display: block;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Lato', sans-serif;
+}
+p{
+    font-family: 'Lato', sans-serif;
+}
 a{
     text-decoration: none;
     color: black;
+    font-family: 'Lato black 900 italic', sans-serif;
 }
 header{
     background-color:#6B9AC4;
@@ -13,6 +28,15 @@ main{
 main h1{
     color: #4059AD;
 }
+main img{
+    width: 150px;
+    height: auto;
+    float: right;
+    border: 1px solid rgb(188, 130, 130);
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    margin: 0 0 1rem 1rem;
+}
 aside{
     width: 20rem;
     margin: 1em;
@@ -21,14 +45,16 @@ aside{
     background-color: #6B9AC4;
     color: black;
     text-align: center;
+    position: relative;
 }
 aside img{
     width: 200px;
     height: auto;
 }
-main img{
-    width: 150px;
-    height: auto;
+aside h2{
+    position: absolute;
+    top: 5px;
+    left: 120px;
 }
 p{
     padding: 0;
@@ -37,4 +63,13 @@ footer{
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors */
+.box{
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
 }
