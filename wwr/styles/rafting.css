@@ -9,6 +9,7 @@
     --nav-link-color: white;
     --nav-hover-link-color: black;
     --nav-hover-background-color: white;
+    --alternative-color:navy;
 }
 body{
     font-family: var(--paragraph-font);
@@ -20,28 +21,44 @@ h1,h2,h3,h4,h5,h6{
     color: var(--primary-color);
 }
 nav{
-    background-color: var(--nav-background-color);
+    
     font-size:1.2rem;
-    display:flex;
+    text-align: right;
+
 }
 header{
     padding: 20px;
-    background-color: var(--accent1-color);
+    display: grid;
+	grid-template-columns: 120px 1.5fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+header img{
+    max-width: 200px;
+    height: auto;
+}
+nav{
+    /* padding-left: 2.5%; */
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
 }
 nav a{
     display: block;
-    color: var(--nav-link-color);
+    color: var(--primary-color);
     text-decoration: none;
     padding: 1rem;
 }
-nav a:link, nav a:visited{
-    color: var(--nav-link-color);
+li{
+    margin: 0;
+    padding: 0;
 }
-nav a:hover{
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+footer p {
+    text-align: center;
 }
-
 /* classes css */
 .w-background{
     background-color: white;
@@ -71,5 +88,48 @@ article .floating-image{
     max-width: 350px;
     float: right;
 }
-
-
+.navigation {
+	display: flex;
+	list-style: none;
+}
+.navigation li {
+	flex: 1 1 100%;
+}
+.navigation a {
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+}
+.company-name{
+    
+    text-align: center;
+}
+.animation{
+    color: var(--primary-color);
+}
+.animation:hover{
+    color: var(--alternative-color);
+    text-decoration: underline;
+}
+.history-layout{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.tittle-history{
+    text-align: center;
+}
+.history-layout img{
+    width: 400px;
+}
+.history-layout div h2 p{
+    padding-left: 1.5rem;
+    text-align: left;
+}
+.adventure{
+    display: flex;
+    flex-direction: row;
+}
+.adventure img{
+    width: 200px;
+    height: 100px;
+}
