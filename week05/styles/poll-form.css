@@ -32,11 +32,11 @@ form{
     display: grid;
 }
 fieldset{
-display: grid;
-grid-gap: .5rem;
-margin: 1rem;
-border: 1px solid rgba(0, 0, 0, 0.2);
-padding: 1rem;
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
 }
 
 legend{

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/quiz.css">
+</head>
+<body>
+    <!-- agregar color de fondo para el formulario -->
+    <header>
+        <h1>HTML and CSS Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <section>
+            <div class="flex-container">
+            <div class="flex-box">
+                <div class="">
+            <legend>Students Name:</legend>
+                <div class="">
+                <label for="">Full Name</label>
+                <br>
+                <input class="inputs" type="text" required>
+                </div>
+                </div>
+                <legend>Questions:</legend>
+                <div class="space">
+                <label for=""><b>1.-</b>Which is the width of this border:</label>
+                <br>
+                <label class="example">"border: 1px  solid  rgb(188, 130, 130);"</label>
+                <br>
+                <input type="text" name="q1" id="q1"  class="inputs" required>
+                </div>
+
+                <div class="space">
+                    <label for=""><b>2.-</b> Write a valid HTML comment:</label>
+                    <br>
+                    <input name="q2" id="q2" class="inputs" type="text" required>
+                </div>
+
+                <div class="space">
+                    <label for=""><b>3.-</b>Explain the difference between inline CSS and external CSS</label>
+                    <br>
+                    <textarea class="inputs" name="q3" id="q3" rows="4" required></textarea>
+                </div>
+
+                <div class="space">
+                    <label for=""><b>4.-</b>What differentiate HTML from CSS?</label>
+                    <br>
+                    <select class="" name="q4" id="q4" required>
+                        <option value="">What differentiate HTML from CSS? HTML Defines the structure and content of a web page and CSS Controls the visual appearance and layout of HTML elements.</option>
+                        <option value="">HTML Controls the visual appearance and layout of CSS elements and CSS Defines the structure and content of a web page.</option>
+                        <option value="">Thre´s is no difference</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="boton">
+            <button type="submit">Submit Quiz</button>
+        </div>
+        
+        </form>
+    </main>
+</body>
+</html>

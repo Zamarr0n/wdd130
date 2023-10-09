@@ -11,14 +11,32 @@
     --nav-hover-background-color: white;
     --alternative-color:navy;
 }
+*{
+    font-family: var(--paragraph-font);
+}
 body{
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
 }
-h1,h2,h3,h4,h5,h6{
-    font-family: var(--heading-font);
-    color: var(--primary-color);
+.container{
+    display:flex;
+    justify-content: center;
+}
+.container img{
+    max-width: 100%;
+}
+.container01{
+    display: flex;
+    justify-content: space-between;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.maps{
+    text-align: center;
 }
 nav{
     
@@ -52,42 +70,44 @@ nav a{
     text-decoration: none;
     padding: 1rem;
 }
-li{
-    margin: 0;
-    padding: 0;
+legend{
+    font-size: 2em;
+    color: rgb(128, 0, 0);
 }
-
-/* classes css */
-.w-background{
-    background-color: white;
+label{
+    padding: 0.5rem;
+    color: var(--primary-color);
+    font-size: 1.3em;
 }
-.w-background img{
-    width: 50px;
+button{
+    width: 45%;
+    margin: .5rem;
+    background-color: rgb(128, 0, 0);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .50rem;
+    font-size: 1.2rem;   
 }
-.hero{
-    position: relative;
+button:hover{
+    background-color: rgb(128, 83, 0);
 }
-.hero img{
-    width: 100%;
-    height: auto;
-    
+footer{
+    display: flex;
 }
-.hero h1{
-    position: absolute;
-    top: 25px;
-    left: 300px;
-    color: white;
+footer nav{
+    display: flex;
 }
-article{
-    position: absolute;
-    left: 70px;
-    top: 120px;
-    width: 85%;
-    background-color: var(--accent1-color);
+footer p{
+    display: flex;
+    flex: auto;
+    align-items: flex-end;
 }
-article .floating-image{
-    max-width: 350px;
-    float: right;
+#company-information{
+    padding-bottom: 2rem;
+}
+.company-name{
+    text-align: center;
 }
 .navigation {
 	display: flex;
@@ -101,8 +121,12 @@ article .floating-image{
 	padding: 20px;
 	text-decoration: none;
 }
-.company-name{
-    text-align: center;
+.adventure img{
+    width: 150px;
+    height: 100px;
+}
+.forms{
+    color:rgb(128, 0, 0); ;
 }
 .animation{
     color: var(--primary-color);
@@ -111,36 +135,20 @@ article .floating-image{
     color: var(--alternative-color);
     text-decoration: underline;
 }
-.history-layout{
+.flex-box{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
 }
-.tittle-history{
-    text-align: center;
-}
-.history-layout img{
-    width: 400px;
-}
-.history-layout div h2 p{
-    padding-left: 1.5rem;
-    text-align: left;
-}
-.adventure{
+.flex-box01{
     display: flex;
     flex-direction: row;
 }
-.adventure img{
-    width: 150px;
-    height: 100px;
-}
-footer{
+.submit{
+    padding-top: 1.5rem;
     display: flex;
+    justify-content: center;
 }
-footer nav{
-    display: flex;
-}
-footer p{
-    display: flex;
-    flex: auto;
-    align-items: flex-end;
+.w-background img{
+    width: 50px;
 }
