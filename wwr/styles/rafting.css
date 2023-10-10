@@ -56,6 +56,10 @@ li{
     margin: 0;
     padding: 0;
 }
+/* id clases */
+#company-information{
+    padding-bottom: 2rem;
+}
 
 /* classes css */
 .w-background{
@@ -88,6 +92,28 @@ article{
 article .floating-image{
     max-width: 350px;
     float: right;
+}
+legend{
+    font-size: 2em;
+    color: rgb(128, 0, 0);
+}
+label{
+    padding: 0.5rem;
+    color: var(--primary-color);
+    font-size: 1.3em;
+}
+button{
+    width: 45%;
+    margin: .5rem;
+    background-color: rgb(128, 0, 0);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .50rem;
+    font-size: 1.2rem;   
+}
+button:hover{
+    background-color: rgb(128, 83, 0);
 }
 .navigation {
 	display: flex;
@@ -133,6 +159,46 @@ article .floating-image{
     width: 150px;
     height: 100px;
 }
+.container01{
+    display: flex;
+    justify-content: space-between;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.maps{
+    text-align: center;
+}
+.container{
+    display:flex;
+    justify-content: center;
+}
+.container img{
+    max-width: 100%;
+}
+.flex-box{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+}
+.flex-box01{
+    display: flex;
+    flex-direction: row;
+}
+.submit{
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+.forms{
+    color:rgb(128, 0, 0); ;
+}
+
+/* .w-background img{
+    width: 50px;
+} */
 footer{
     display: flex;
 }

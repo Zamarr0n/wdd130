@@ -102,3 +102,9 @@ nav{
 .indent{
     padding-left: 2rem;
 }
+.tittle{
+    border-bottom: 1.5px solid #4059AD;
+}
+.space-information{
+    padding-top: .5rem;
+}
