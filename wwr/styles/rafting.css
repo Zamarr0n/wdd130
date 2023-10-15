@@ -115,6 +115,9 @@ button{
 button:hover{
     background-color: rgb(128, 83, 0);
 }
+footer p a{
+    padding-left: 20px;
+}
 .navigation {
 	display: flex;
 	list-style: none;
