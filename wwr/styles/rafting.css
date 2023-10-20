@@ -103,7 +103,6 @@ label{
     font-size: 1.3em;
 }
 button{
-    width: 45%;
     margin: .5rem;
     background-color: rgb(128, 0, 0);
     color: #fff;
@@ -115,8 +114,70 @@ button{
 button:hover{
     background-color: rgb(128, 83, 0);
 }
+.submit-form{
+    width: 45%;
+}
 footer p a{
     padding-left: 20px;
+}
+/* trips page */
+
+#background-image{
+    background-image: url("https://images.pexels.com/photos/13017112/pexels-photo-13017112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    padding: 10rem;
+    background-blend-mode: multiply;
+    background-color: rgb(102, 100, 100);
+}
+#background-home{
+    background-image: url("https://images.pexels.com/photos/11158623/pexels-photo-11158623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    padding: 6rem;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: rgb(102, 100, 100);
+}
+table,td {
+border: 1px solid #333;
+border-collapse: collapse;
+}
+
+thead,tfoot {
+background-color: var(--nav-background-color);
+color: #fff;
+}
+.tittle-image{
+    font-size: 3.5rem;
+    color: white;
+}
+
+.flex-box-trips{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.offer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.flex-box-trips02{
+    text-align:justify;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.call-to-action-images{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.call-to-action-images02{
+    width: 400px;
+}
+button .boton-images{
+    width: 90%;
+    
 }
 .navigation {
 	display: flex;
@@ -190,6 +251,11 @@ footer p a{
     display: flex;
     flex-direction: row;
 }
+.flex-box02{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 .submit{
     padding-top: 1.5rem;
     display: flex;
@@ -198,7 +264,17 @@ footer p a{
 .forms{
     color:rgb(128, 0, 0); ;
 }
-
+.space{
+    padding-top: 2.5rem;
+}
+.call-to-action{
+    text-align:justify;
+    font-size: 18px;
+}
+.img-purpose{
+    width: 400px;
+    padding-right: 1rem;
+}
 /* .w-background img{
     width: 50px;
 } */
